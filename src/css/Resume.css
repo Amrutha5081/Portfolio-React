@@ -1,0 +1,56 @@
+/* Add responsive styles for .white-card */
+.white-card {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%; /* Responsive width based on the body's size */
+  max-width: 800px; /* Set a maximum width for larger screens */
+  margin: 0 auto;
+  position: absolute;
+  bottom: 26%; /* Adjust positioning based on your preference */
+  margin-top: 10%; /* Adjust to center vertically */
+  
+  display: flex; /* Use flex to center elements horizontally and vertically */
+  flex-direction: column; /* Arrange elements in a column layout */
+  align-items: center; /* Center content horizontally */
+}
+
+/* Add responsive styles for .description */
+.description {
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 23px; /* Adjust font size for smaller screens */
+  line-height: 1.5;
+  margin: 20px;
+}
+
+/* Add responsive styles for .download-button */
+.download-button {
+  background-color: #30ac36;
+  color: white;
+  border: none;
+  padding: 15px 30px; /* Adjust button size for smaller screens */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Adjust font size for smaller screens */
+  margin: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .white-card {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .description {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .download-button {
+    padding: 20px 30px; /* Adjust button size for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}

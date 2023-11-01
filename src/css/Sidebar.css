@@ -1,0 +1,155 @@
+.sidebar {
+    flex: 0.2;
+    border-top-right-radius: 50% 10px;
+    border-bottom-right-radius: 50% 10px;
+    padding: 20px;
+    max-width: 50px;
+    margin-right: 800px;
+    margin-left: -110px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    -ms-flex-align: start;
+    height: 300px;
+    width: 100px;
+    position: relative;
+    bottom:135px;
+    right: 10px; /* Increase the width to make the smaller box */
+  }
+  
+  /* Add styles for the smaller box */
+  .small-box {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: relative;
+    right:20px;
+    height: 50px; /* Make the smaller box take the full width */
+  }
+  
+  /* Add styles for the longer box */
+  .long-box {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    position: relative;
+    height: 355px;
+    right:20px;/* Make the longer box take the full width */
+  }
+ 
+  .element {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+    padding-bottom: 20px;/* Adjust the margin to control the spacing between elements */
+  }
+  
+  .element img {
+    
+    position: relative;
+    left:13px;
+  width: 24px;
+  margin-bottom: 12px; /* Adjust margin to create space between image and text */
+}
+
+  
+  .element p {
+    font-size: 13px; 
+    font-weight:900;/* Adjust the font size for the element name */
+    color: #333;
+    position: relative;
+    top:25px;
+    right: 20px;
+    text-align: center;
+   /* Adjust the text color */
+  }
+  .element p1 {
+    font-size: 13px; 
+    font-weight:900;/* Adjust the font size for the element name */
+    color: #333;
+    position: relative;
+    top:25px;
+    right: 26px;
+    text-align: center;
+   /* Adjust the text color */
+  }
+  
+  .about-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .about-link img {
+    margin-right: 8px;
+    width: 24px;
+    transition: filter 0.3s, color 0.3s;
+  }
+  
+  .about-link p {
+    font-size: 14px;
+    font-weight: 900;
+    color: #333;
+    position: relative;
+    top: 25px;
+    right: 26px;
+    text-align: center;
+  }
+  
+  .about-link:hover p{
+    color: #2E8B57
+  }
+  .about-link:hover img {
+    background-color:  #5F9EA0;
+    filter: brightness(150%);
+  }
+  
+  
+  
+  
+  .resume-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .resume-link img {
+    margin-right: 8px;
+    width: 24px;
+    transition: filter 0.3s, color 0.3s;
+  }
+  
+  .resume-link p {
+    font-size: 14px;
+    font-weight: 900;
+    color: #333;
+    position: relative;
+    top: 25px;
+    right: 26px;
+    text-align: center;
+  }
+  
+  .resume-link:hover p{
+    color: #2E8B57
+  }
+  .resume-link:hover img {
+    background-color:  #5F9EA0;
+    filter: brightness(150%);
+  }
+  
+  
+  
+  
+  
